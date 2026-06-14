@@ -11,7 +11,7 @@ def load_data():
 df = load_data()
 
 
-st.title("Sentiment Dashboard-Version 2.0")
+st.title("Sentiment Dashboard")
 total_reviews = len(df)
 positive_count = len(df[df['sentiment'] == 'positive'])
 negative_count = len(df[df['sentiment'] == 'negative'])
