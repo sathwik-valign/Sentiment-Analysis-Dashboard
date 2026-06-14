@@ -5,6 +5,14 @@ An interactive web-based dashboard that performs sentiment analysis on short tex
 ## Problem Statement
 Manual sentiment analysis of large text datasets is inefficient and prone to inconsistency. This project automates the analysis process, allowing users to quickly visualize sentiment trends and test individual sentences in real-time, improving data-driven decision-making.
 
+## Approach
+This project uses VADER (Valence Aware Dictionary and sEntiment Reasoner) for lexicon-based sentiment analysis, chosen for its efficiency and ease of use without requiring heavy model downloads. Pandas is used for data wrangling and batch processing, while Streamlit provides an interactive web interface. Caching decorators (@st.cache_data) are implemented to ensure the dashboard remains responsive by preventing unnecessary re-computation.
+
+## Known Limitations
+- The model may struggle with complex sarcasm or industry-specific slang not covered in the VADER lexicon.
+
+- Processing extremely large datasets (>10,000 rows) may take longer to compute during the batch process.
+
 ## Setup Instructions
 To set up this project on a fresh machine, ensure you have Python installed and follow these steps:
 
