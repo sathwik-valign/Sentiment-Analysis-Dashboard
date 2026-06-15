@@ -66,4 +66,4 @@ Figure 3: Entering the review and classifying it (positive)
 
 
 Figure 4: Entering the review and classifying it (negative)
-<img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/dfa63b4e-82a1-4837-86c6-0f537b8e3450" /></br
+<img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/dfa63b4e-82a1-4837-86c6-0f537b8e3450" />
